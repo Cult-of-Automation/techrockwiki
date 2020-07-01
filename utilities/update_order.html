@@ -1,0 +1,9 @@
+<!--
+title: Update order
+description: update order on bedrock edition
+published: true
+date: 2020-03-01T15:43:28.774Z
+tags: 
+-->
+
+<h1>Bedrock edition update order</h1><h2>Brief summary of update order: (by EarthComputer)</h2><ul><li>Consumers<ul><li>Piston Consumers</li></ul></li><li>Producers<ul><li>Capacitors (= producer with a direction)<ul><li>Repeater Capacitors</li><li>Comparator Capacitors</li><li>Pulse Capacitors (observers?)</li><li>Redstone Torch Capacitors</li></ul></li></ul></li><li>Transporters</li><li>Rail Transporters</li><li>Powered Blocks</li></ul><p>&nbsp;</p><h3>Random shuffling between chunks</h3><ul><li>Every 20gt (1 sec)</li><li>Chunk-wise tile entity list shuffled<ul><li>Every 1gt (1/20 sec)</li><li>Causes piston order within a chunk to be unpredictable</li></ul></li><li>Consumer components within a chunk are updated in a predictable order<ul><li>Depends on the order in which these components were placed</li><li>Depends on the number of consumers in the circuit</li><li>Depends on whether the producer is in the same chunk as the consumers</li><li>Depends on nothing else, therefore not directional or locational</li></ul></li></ul>
