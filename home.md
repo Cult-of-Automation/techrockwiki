@@ -2,8 +2,8 @@
 title: Home
 description: Welcome to the TechRockWiki
 published: true
-date: 2020-07-01T19:10:16.863Z
-tags: index
+date: 2020-07-01T19:12:52.074Z
+tags: 
 editor: markdown
 ---
 
