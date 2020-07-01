@@ -2,8 +2,9 @@
 title: Utilities
 description: Index for Utilities
 published: true
-date: 2020-02-22T11:40:05.745Z
-tags: 
+date: 2020-07-01T19:11:01.191Z
+tags: index
+editor: markdown
 ---
 
 The utilities category for documentation include mechanics and contraptions that don't directly produce resources but rather are used in farms/generators or as standalone tools for gameplay:
