@@ -2,22 +2,22 @@
 title: Flying Machines
 description: 
 published: true
-date: 2020-07-03T16:45:44.397Z
+date: 2020-08-27T12:11:05.251Z
 tags: 
 editor: ckeditor
 -->
 
 <h1>Basics</h1>
-<p>Flying machines (flyers) are contraptions in Minecraft that can move whilst retaining it's original structure. Generally, these contraptions rely on slime (or honey) blocks to operate. Thus, the practice of engineering and working with flying machines is commonly know as 'slimestone'.</p>
+<p>Flying machines (flyers) are contraptions in Minecraft that can move whilst retaining its original structure. Generally, these contraptions rely on slime (or honey) blocks to operate. Thus, the practice of engineering and working with flying machines is commonly know as 'slimestone'.</p>
 <h2>BE Disadvantages</h2>
 <p>In Bedrock Edition, several mechanics in Java Edition are lacking that render making/working with flying machines comparatively challenging:</p>
 <h3>Tile-entity update order</h3>
 <p>When two or more pistons are activated within the same redstone-tick (1/10 seconds), there is no way to determine the order in which said pistons will be activated if they are within the same chunk. This is due to the order of tile-entities (pistons), within a chunk, which is random. Update order between chunks is shuffled every 20gt.</p>
 <h3>Block-dropping</h3>
-<p>In Java Edition, sticky pistons, when activated by a pulse less than or equal to 1 redstone-tick, will act as a regular piston when pushing a block — in essense, not pulling the block back afterwards — but, if it hasn't push any blocks, will still pull blocks on retraction. This is because retraction happens instantaneously.</p>
+<p>In Java Edition, sticky pistons, when activated by a pulse less than or equal to 1 redstone-tick, will act as a regular piston when pushing a block — in essence, not pulling the block back afterwards — but, if it hasn't push any blocks, will still pull blocks on retraction. This is because retraction happens instantaneously.</p>
 <p>In Bedrock Edition, piston retraction is delayed by one redstone-tick. Thus, sticky pistons always pull blocks on retraction (if it is not blocked by unmovable blocks or push limit).</p>
 <h3>Quasi-connectivity &amp; BUD</h3>
-<p>In java edition Quasi-connectivity (QC) is a property of pistons droppers and dispensers that allows them to be triggered by a update from certain blocks that occurs in a block adjacent to that component eg. (A piston above will cause the piston below to fire) this allows for more activation options for pistons in flying Machines.&nbsp;</p>
+<p>In Java Edition, Quasi-connectivity (QC) is a property of pistons droppers and dispensers that allows them to be triggered by a update from certain blocks that occurs in a block adjacent to that component eg. (A piston above will cause the piston below to fire). This allows for more activation options for pistons in flying machines.&nbsp;</p>
 <p>Block update detector (BUD) is a behaviour in java edition were pistons can be indirectly powered but won’t perform an action until they receive a block update. this mechanic is heavily used in flying machines as it allows for compactness and more powering options and can avoid the use of observers.</p>
 <p>in bedrock edition neither of these mechanics are present so different approaches must be taken when building flying machine</p>
 <h1>Types</h1>
